@@ -1,6 +1,6 @@
 {
   "name": "@standupx/rc-datepicker",
-  "version": "5.0.16",
+  "version": "5.1.0",
   "description": "DatePicker and DatePickerInput to be used with React",
   "main": "index.js",
   "files": [
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/buildo/rc-datepicker.git"
+    "url": "git+https://github.com/standupx/rc-datepicker.git"
   },
   "keywords": [
     "react",
@@ -38,12 +38,12 @@
     "calendar",
     "date"
   ],
-  "author": "Francesco Cioria <francesco@buildo.io>",
+  "author": "Francesco Cioria <info@standupx.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/buildo/rc-datepicker/issues"
+    "url": "https://github.com/standupx/rc-datepicker/issues"
   },
-  "homepage": "https://github.com/buildo/rc-datepicker",
+  "homepage": "https://github.com/standupx/rc-datepicker",
   "devDependencies": {
     "@types/react": "^15.6.28",
     "babel-cli": "^6.8.0",
@@ -67,23 +67,23 @@
     "karma-webpack": "^1.8.1",
     "mocha": "^2.5.3",
     "node-libs-browser": "^1.1.1",
-    "node-sass": "^4.13.1",
-    "react": "^0.14",
+    "node-sass": "^7.0.3",
+    "react": "^17",
     "react-addons-test-utils": "^0.14.8",
     "react-dom": "^0.14",
     "react-readme-generator": "0.0.1",
     "require-dir": "^0.3.2",
     "resolve-url-loader": "^1.6.1",
-    "sass-loader": "^3.2.3",
+    "sass-loader": "^13.1.0",
     "scriptoni": "^0.6.16",
     "smooth-release": "^8.0.3",
     "style-loader": "^0.13.2",
-    "webpack": "^1.15.0",
-    "webpack-dev-server": "^1.16.5"
+    "webpack": "^5.0.0",
+    "webpack-dev-server": "^4.11.1"
   },
   "peerDependencies": {
-    "react": "^0.14 || ^15.0 || ^16.0",
-    "react-dom": "^0.14 || ^15.0 || ^16.0"
+    "react": "^16.0",
+    "react-dom": "^16.0"
   },
   "dependencies": {
     "classnames": "^2.2.5",
