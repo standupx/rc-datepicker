@@ -1,5 +1,5 @@
 {
-  "name": "rc-datepicker",
+  "name": "@standupx/rc-datepicker",
   "version": "5.0.16",
   "description": "DatePicker and DatePickerInput to be used with React",
   "main": "index.js",
@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/buildo/rc-datepicker.git"
+    "url": "git+https://github.com/buildo/rc-datepicker.git"
   },
   "keywords": [
     "react",
@@ -93,5 +93,9 @@
     "revenge": "^0.4.4",
     "tcomb": "^3.2.1",
     "tcomb-react": "^0.9.0"
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
   }
 }
